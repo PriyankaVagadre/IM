@@ -1,0 +1,238 @@
+/* carousel starts */
+button{
+  outline:none;
+  outline:0px;
+}
+	.item {
+	    background: #fff;
+	    text-align: center;
+	}
+/* carousel ends */
+
+.banner-img{
+  margin-right: -15px;
+}
+
+/* jumbo starts */
+.jumbo h1{
+  font-size: 51px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: 3.6px;
+  text-align: center;
+  margin: 0px;
+  margin-top: 5%;
+  color: #000000;
+}
+.jumbo h2{
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  margin:0px;
+  line-height: 1.52;
+  padding: 2% 0px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #000000;
+}
+
+.cust-bg-1{
+   background-image: url(/assets/images/Home/1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-left: -15px;
+    padding-left: 30px;
+}
+.jumbo{
+    background-image: url(/assets/images/Home/2.png), url(/assets/images/Home/8.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, right bottom;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+
+/* common pages */
+.jumbotron{
+   background-color: transparent;
+   padding-right:15px !important;;;
+   padding-left: 15px !important;;
+   padding-top: 7%;
+   padding-bottom: 7%;
+}
+
+.next-btn {
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 3% 0% 0%;
+    box-shadow: 0px 22px 60.5px 7.5px rgba(105, 103, 103, 0.52);
+    background-image: url(/assets/images/Home/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 13px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    width: 180px;
+    border: none;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    background-color: #fff;
+    text-align: left;
+    color: #020202 !important;
+    background-size: contain;
+}
+
+.selection-box{
+  border-radius: 10px;
+  width: 22%;
+  padding: 20px 3%; 
+  border: solid 2px transparent;
+  margin:5% 3%;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 40px 0 rgba(222, 222, 222, 0.59);
+}
+.selection-box a:hover{
+  text-decoration: none;
+}
+.selection-box:hover{
+  cursor: pointer;
+  box-shadow: 0px 8px 62px 0 rgba(203, 203, 203, 0.59);
+  background-color: #ffffff;
+  border: solid 2px #dcf6f3;
+}
+.selection-div h3{
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1.9px;
+  margin: 20px;
+  text-align: center;
+  color: #000000;
+}
+.selection-div p{
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #353535;
+}
+.selection-div{
+  text-align: center;
+  width: 100%;
+  display: inline-flex;
+}
+.influencer-box{
+margin-right: auto;
+}
+.brand-box{
+margin-left: auto;
+}
+/* common pages */
+@media only screen and (max-width:1200px) and (min-width:768px){
+   .banner-img{
+    width: 90%;
+   }
+   .jumbo h1 {
+    font-size: 25px;
+  }
+  .jumbo h2 {
+    font-size: 18px;    
+    width: 100%;
+  }
+  .jumbotron {
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+  .jumbo h1 {
+    font-size: 22px;
+  }
+  .selection-box {
+    width: 40%;
+  }
+  .selection-div h3 {
+    font-size: 18px;
+    margin: 12px;
+  }
+  .selection-div p {
+    font-size: 14px;
+  }
+ }
+ @media only screen and (max-width:767px) and (min-width:200px){
+  .starts-email img{
+    width: 30px;
+  }
+   .banner-img {
+    width: 75%;
+    margin-right: auto;
+  }
+   .jumbo h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+  .jumbo .text-right{
+    background-image: url(/assets/images/Home/8.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    right: 0px;
+    background-size: 40%;
+    margin-top: -115px;
+    padding-top: 20%;
+    text-align: center;
+  }
+  .jumbo h2 {
+    font-size: 12px;   
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .cust-bg-1 {
+    background-image: none;
+    margin-left: auto;
+    padding-left: 15px;
+    background-position: right top;
+}
+  .jumbo {
+    background-image: url(/assets/images/Home/1.png), url(/assets/images/Home/14.png), url(/assets/images/Home/8.png);;;
+    background-repeat: no-repeat ,  no-repeat,  no-repeat;
+    background-position: left top , right bottom, right bottom;
+    background-size: 30%;
+  }
+  .jumbotron {
+    padding-top: 20%;
+  }
+  .selection-div {
+      text-align: center;
+      width: 100%;
+  }
+  .selection-div img{
+    height: 70px;
+  }
+  .selection-box {
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    border: solid 2px transparent;
+    margin: 10% 5px;
+  }
+   .selection-div h3 {
+    font-size: 18px;
+    margin: 12px;
+  }
+  .cust-bg-1{
+    padding: 0px
+  }
+  .selection-div p {
+    font-size: 14px;
+  }
+}

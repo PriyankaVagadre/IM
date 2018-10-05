@@ -1,0 +1,100 @@
+<app-login-header></app-login-header>
+
+<!-- jombotron -->
+<div class="jumbotron jumbo">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-3 col-xs-12">
+        <h2>HEY <br/>BRAND!</h2>
+        <h3>Let’s Kick Now</h3>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 tab-content">
+
+        <!--login form -->
+        <div class="login-form tab-pane fade in active" id="brand-login">
+          <h1>LOGIN</h1>
+          <form class="form-box">
+             <div class="input-group bordebtm">
+                <input id="email-login" type="text" class="form-control" name="email" placeholder="Email" autocomplete="on">
+                <span class="input-group-addon"><img alt="user" src="assets/images/login/3.png" /></span>   
+              </div>
+              <div class="input-group bordebtm">
+                <input id="password-login" type="password" class="form-control" name="password" placeholder="Password" autocomplete="on">
+                <span class="input-group-addon"><img alt="user" src="assets/images/login/2.png" /></span>
+              </div>
+              <div class="input-group">
+                <button type="button"  class="forget-btn" data-toggle="pill" href="#brand-forgot-password">Forgot Password?</button>
+              </div>
+              <button type="button" class="login-btn">Take Me In</button>
+          </form>
+          <h3>Don’t have an account? <button type="button" data-toggle="pill" href="#brand-register">REGISTER</button></h3>
+        </div>
+        <!--login form -->
+
+        <!--register form -->
+        <div class="register-form tab-pane fade" id="brand-register">
+          <h1>REGISTER</h1>
+          <form class="form-box">
+            <div class="input-group bordebtm">
+                <input id="name-reg" type="text" class="form-control" name="name" placeholder="Full Name" autocomplete="on">
+                <span class="input-group-addon"><img alt="user" src="assets/images/login/4.png" /></span>
+              </div>
+             <div class="input-group bordebtm">
+                <input id="email-reg" type="text" class="form-control" name="email" placeholder="Email" autocomplete="on">
+                <span class="input-group-addon"><img alt="user" src="assets/images/login/3.png" /></span>   
+              </div>
+              <div class="input-group bordebtm">
+                <input id="password-reg" type="password" class="form-control" name="password" placeholder="Password" autocomplete="on">
+                <span class="input-group-addon"><img alt="user" src="assets/images/login/2.png" /></span>
+              </div>
+              <div class="input-group">
+                  <label class="checkbox-inline"><input type="checkbox" value="">I Agree to all terms & conditions</label>
+              </div>
+              <button type="button" class="login-btn">Get Started</button>
+          </form>
+          <h3>Have an account? <button type="button" data-toggle="pill" href="#brand-login">LOGIN</button></h3>
+        </div>
+        <!--register form -->
+
+        <!--brand forgot password form -->
+        <div class="register-form tab-pane fade forgot-box" id="brand-forgot-password">
+          <h1>FORGOT PASSWORD</h1>
+          <p>Enter email id where we will send you the link for resetting your pssword</p>
+          <form class="form-box">
+             <div class="input-group bordebtm">
+                <input id="email-forgot" type="text" class="form-control" name="email" placeholder="Email" autocomplete="on">
+                <span class="input-group-addon"><img alt="user" src="assets/images/login/3.png" /></span>   
+              </div>
+              <button type="button" class="login-btn" data-toggle="pill" href="#reset-register">Submit</button>
+          </form>
+        </div>
+        <!--brand forgot password form -->
+
+        <!--reset password form -->
+        <div class="register-form tab-pane fade forgot-box" id="reset-register">
+          <h1>RESET PASSWORD</h1>
+          <form class="form-box">
+              <div class="input-group bordebtm">
+                <input id="password-new" type="password" class="form-control" name="password" placeholder="Password" autocomplete="on">
+                <span class="input-group-addon"><img alt="user" src="assets/images/login/2.png" /></span>
+              </div>
+              <div class="input-group bordebtm">
+                <input id="re-password-new" type="password" class="form-control" name="re-password" placeholder="Re-Enter Password" autocomplete="on">
+                <span class="input-group-addon"><img alt="user" src="assets/images/login/2.png" /></span>
+              </div>
+              <button type="button" class="login-btn">Submit</button>
+          </form>
+        </div>
+        <!--reset password form -->
+
+
+      </div>
+      <div class="col-md-4 col-sm-3">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- jombotron -->
+
+
+<app-footer></app-footer>

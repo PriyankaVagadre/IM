@@ -1,0 +1,171 @@
+/* header */
+/* You can add global styles to this file, and also import other style files */
+a {
+  outline:0 !important;
+  border:0 !important;
+}
+button{
+  outline:0 !important;
+  border:0;
+}
+input {
+  outline:0 !important;
+  border:0;
+}
+textarea{
+  outline:0 !important;
+  border:0 ;
+}
+select{
+  -webkit-appearance: none;
+  outline:0 !important;
+  border:0 !important;
+}
+input:focus{
+
+    border-bottom: 1px solid #000;
+}
+.inline-flex{
+  display: inline-flex;
+}
+/* input:focus, textarea:focus {
+border: 0px solid transparent !important;
+box-shadow: 0 0 0px transparent !important;
+-moz-box-shadow: 0 0 0px transparent !important;
+-webkit-box-shadow: 0 0 0px transparent !important;
+} */
+.text-left{
+  text-align:left;
+}
+.text-right{
+  text-align:right;
+}
+.text-center{
+  text-align:center;
+}
+.fright{
+  float:right;
+}
+
+.custom-navbar{
+    background-color: transparent;
+    border-color: transparent;
+    padding: 15px;
+}
+.custom-navbar a:hover{
+  color: #4e4c4c;
+  background-color: #fff;
+}
+
+.get-started-btn{
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin: 7px 15px 7px 40px;
+  box-shadow: 0px 22px 60.5px 7.5px rgba(105, 103, 103, 0.52);
+  background-image: url(/assets/images/Home/arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 13px;
+  padding-top: 10px !important;;
+  padding-bottom: 10px !important;;
+  width: 200px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  background-color: #fff;
+  text-align: left;
+  color: #020202 !important;;;
+  background-size: contain;
+}
+.get-started-btn:hover{
+
+  background-color: #fff;
+}
+.navbar-brand{
+  font-size: 29px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  padding: 5px 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #060606 !important;
+}
+.custom-navbar .navbar-right .nav-element{
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0px 20px;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #020202 !important;;
+}
+.changeColor {
+   background-color: #ffffff  !important;;;
+}
+
+/* header */
+ .mobile-view{
+      display: none; 
+    }
+    .desktop-view{
+       display:inline-block;
+    }
+.custom-navbar .navbar-right .brand-act{
+  color: #d5e3f3 !important;
+}
+@media only screen and (max-width:1200px) and (min-width:768px){
+   .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .custom-navbar .navbar-right .nav-element{
+    font-size: 15px;
+    margin: 0px 0px;
+  }
+}
+@media only screen and (max-width:767px) and (min-width:200px){
+     .navbar-brand{
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .custom-navbar .navbar-right .nav-element{
+      font-size: 14px;
+      margin: 0px 0px;
+    }
+    .navbar-collapse{
+      border-color: #fff7f7;
+      background-color: #ffffff;
+    }
+    .custom-navbar{
+        padding: 15px 0px;
+    }
+    .get-started-btn {
+    margin: 10px 15px;
+    box-shadow: none;
+    border: 1px solid #f2f2f2 !important;
+    }
+     .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #d7e2f2;
+    }
+    .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #020202;
+    }
+    .mobile-view{
+      display:inline-block;
+    }
+    .desktop-view{
+       display: none; 
+    }
+}
+.custom-navbar .navbar-right .nav-element:hover{
+  background-color: transparent;
+}
+.custom-navbar a:hover{
+background-color: transparent;
+}

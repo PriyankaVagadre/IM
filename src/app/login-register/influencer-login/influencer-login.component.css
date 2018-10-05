@@ -1,0 +1,282 @@
+/* carousel starts */
+button{
+  outline:none;
+  outline:0px;
+}
+
+/* jumbo starts */
+.register-form , .login-form{
+   border-radius: 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 62px 0 rgba(203, 203, 203, 0.59);
+  text-align: center;
+  padding: 5%;
+}
+.login-btn {
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 15% 0% 10%;;
+    box-shadow: 0px 22px 60.5px 7.5px rgba(105, 103, 103, 0.52);
+    background-image: url(/assets/images/Home/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 13px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding: 10px !important;
+    width: 200px;
+    border:none;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    background-color: #fff;
+    text-align: left;
+    color: #020202 !important;
+    background-size: contain;
+}
+.jumbo h1{
+   font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #000000;
+}
+.jumbo h2{
+  font-size: 50px;
+  margin-top: 25%;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: 3.8px;
+  text-align: left;
+  color: #000000;
+}
+.jumbo h3{
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.3px;
+  text-align: left;
+  color: #000000;
+}
+
+::-webkit-input-placeholder {
+    color: #b6b6b6;
+}
+:-moz-placeholder {
+    color: #b6b6b6;
+}
+::-moz-placeholder {
+    color: #b6b6b6;  
+}
+:-ms-input-placeholder { 
+    color: #b6b6b6;
+}
+
+.jumbo{
+    background-image: url(/assets/images/login/1.png) , url(/assets/images/login/bg.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right center, center;
+    background-size: 25% 80%, cover;
+    padding-bottom: 0px;
+}
+.login-form .input-group .form-control , .register-form .input-group .form-control{
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #000;
+   background-image: none;
+    padding: 0px;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+.bordebtm{
+   border-bottom: 1px solid #d5e3f3;
+   margin-top: 20px;
+}
+.login-form .input-group .form-control:focus , .register-form .input-group .form-contro:focus{
+  box-shadow: 0 0 0px transparent !important;
+-moz-box-shadow: 0 0 0px transparent !important;
+-webkit-box-shadow: 0 0 0px transparent !important
+}
+ span.input-group-addon{
+    background: transparent;
+    border: none;
+    color: #c8c8c8;    
+    padding: 0px;
+}
+.login-form .input-group{
+  width: 100%;
+}
+.forget-btn{
+      float: right;
+      color:#c4c4c4;;
+}
+/* jumbo starts */
+
+/* common pages */
+.jumbotron{
+  background-color: transparent;
+   padding-right:15px !important;;;
+   padding-left: 15px !important;;
+   padding-top: 12%;
+   margin-bottom: 0px; 
+   padding-bottom: 12%;
+}
+.login-form h3, .register-form h3{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3;
+  margin: 20px;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #000000;
+}
+ .login-form h3 button, .register-form h3 button{
+   color: #50d0f0;
+}
+
+ .login-form button, .register-form button{
+   background-color: transparent;
+   border: none;
+   padding: 0px;
+ }
+ .input-group{
+    width: 100%;
+}
+.forgot-box p{
+   font-size: 16px;
+   margin-top: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #000000;
+}
+.checkbox-inline{ 
+
+    margin-top: 15%;
+   font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #000000;
+}
+.forgot-box .bordebtm{
+  padding: 10% 0% 0px;
+}
+/* common pages */
+@media only screen and (max-width:1200px) and (min-width:768px){
+   .banner-img{
+    width: 90%;
+   }
+   .jumbo h1 {
+    font-size: 20px;
+  }
+  .jumbo h2 {
+    font-size: 25px; 
+    margin-top: 50%;   
+    width: 100%;
+  }
+  .jumbo h3{
+    font-size: 18px;
+  }
+  .login-form .input-group .form-control, .register-form .input-group .form-control {
+    font-size: 14px;
+  }
+  .login-form h3, .register-form h3 {
+    font-size: 14px;
+    line-height: 3;
+    margin: 10px;
+  }
+  .forgot-box p {
+    font-size: 14px;
+  }
+  .checkbox-inline {
+    font-size: 13px;
+  }
+  .jumbo {
+    background-image: url(/assets/images/login/1.png) , url(/assets/images/login/bg.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right center, center;
+    background-size: 20% 60%, cover;
+  }
+ }
+
+  .mobile-view{
+      display: none; 
+    }
+    .desktop-view{
+       display:inline-block;
+    }
+ @media only screen and (max-width:767px) and (min-width:200px){
+  .jumbo h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .jumbo h2 {
+    font-size: 25px;       margin-top: 9%;
+    width: 100%;
+    text-align: center;
+  }
+  .jumbo h2 br{
+    display: none;
+  }
+    .jumbo h3 {
+      font-size: 14px;
+      text-align: center;    margin: 0px;
+    }
+ /* .jumbo {
+    background-image: url(/assets/images/login/1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 30%;
+  }*/
+  
+  .jumbotron {
+    padding-top: 20%;
+  }
+  .register-form, .login-form {
+    border-radius: 20px;
+    margin: 15% 0%;
+    width: 100%;
+  }
+  .login-form .input-group .form-control, .register-form .input-group .form-control {
+    font-size: 13px;
+  }
+  .forgot-box p {
+    font-size: 13px;
+  }
+  .forgot-box .bordebtm {
+    padding: 0% 0% 0px;
+  }
+  .jumbo {
+    background-size: 45% 60%, cover;
+  }
+  .checkbox-inline[_ngcontent-c1] {
+    font-size: 12px;
+  }
+  .forget-btn{
+    font-size: 13px;
+}
+}

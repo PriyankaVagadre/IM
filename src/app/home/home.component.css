@@ -1,0 +1,954 @@
+/* carousel starts */
+button{
+  outline:none;
+  outline:0px;
+}
+	.item {
+	    background: #fff;
+	    text-align: center;
+	}
+/* carousel ends */
+
+.banner-img{
+  margin-right: -15px;
+}
+
+/* jumbo starts */
+.jumbo h1{
+  font-size: 51px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: 3.6px;
+  text-align: left;
+  margin: 0px;
+  margin-top: 5%;
+  color: #000000;
+}
+.jumbo h2{
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  width: 80%;
+  margin:0px;
+  line-height: 1.52;
+  padding: 8% 0px 10%;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #000000;
+}
+.starts-email{
+  border-radius: 8px;
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: 0px 22px 60.5px 7.5px rgba(105, 103, 103, 0.52);
+}
+.starts-email .form-control {
+	  border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    background-image: none;
+    background-color: transparent;
+    font-size: 16.5px;
+  	font-stretch: normal;
+  	height: 50px;
+    padding: 5px 12px;
+  	line-height: 1.5;
+  	letter-spacing: 1.2px;
+}
+.starts-email .input-group-addon{
+	  background: transparent;
+    background-image: url(/assets/images/Home/20.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% 62px;
+    border: none;
+    padding: 0px 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.starts-email .input-group-addon img{
+	border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+  	color: #909090;
+}
+:-moz-placeholder {
+   font-style: italic; 
+  	color: #909090; 
+}
+::-moz-placeholder {
+   font-style: italic;
+  	color: #909090;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+  	color: #909090;
+}
+.cust-bg-1{
+   background-image: url(/assets/images/Home/1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-left: -15px;
+    padding-left: 30px;
+}
+.jumbo{
+    background-image: url(/assets/images/Home/2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-bottom: 0px;
+}
+.second{
+    background-image: url(/assets/images/Home/9.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.cust-bg-2{
+    background-image: url(/assets/images/Home/11.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: -15px; 
+    background-size: contain;  
+    z-index: 1;
+    padding-left: 30px;
+}
+.cust-bg-3{
+    background-image: url(/assets/images/Home/8.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    right: 0px;
+    z-index: -1;
+    margin-right: 15px;
+    margin-top: -150px;
+    position: absolute;
+    padding-right: 15px;
+}
+.second .img-1{
+	  position: absolute;
+    left: 0;
+    top: 20%;
+    z-index: -1;
+}
+.second {
+    padding-top: 9%;
+}
+.second h2{
+  font-style: normal;
+  font-size: 48px;
+  line-height: 0.86;
+  font-weight: 300;
+  letter-spacing: 3.4px;
+  font-stretch: normal;
+  margin:0px;
+  line-height: 1;
+  letter-spacing: 1.9px;
+  text-align: left;
+  color: #000000;
+}
+.second h2 span{
+  font-size: 27.5px;
+  font-weight: 300;
+}
+.box{
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 21px 43px 0 rgba(57, 57, 57, 0.65);
+    padding: 15px;
+    width: 45%;    
+    position: absolute;
+ }
+ .box1{
+
+ }
+ .box p{
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 1.3px;
+  text-align: left;
+  margin: 0px;
+  color: #479cf3;
+ }
+ .box h4{
+  font-size: 38.5px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: 2.7px;
+  text-align: left;
+  color: #000000;
+  margin: 0px;
+ }
+  .box p.in{
+  	color: #ff11a8 !important;
+  }
+  .second .follower-img{
+  	  margin-top:10%;
+  	  width: 80%;
+  /*    float: right;*/
+  	  border-radius: 10px;  
+  	  box-shadow: 0px 22px 60.5px 7.5px rgba(0, 0, 0, 0.52);
+  }
+/* jumbo starts */
+
+/* common pages */
+.jumbotron{
+   background-color: transparent;
+   padding-right:15px !important;;;
+   padding-left: 15px !important;;
+   padding-top: 12%;
+}
+.second , .Third , .fourth , .fifth , .sixth{
+   background-color: transparent;
+   padding-right:15px !important;;;
+   padding-left: 15px !important;;
+}
+.box1{
+    right: 50px;
+    margin-top: 15%;
+}
+.box2{
+    left: 18%;
+    bottom: 23%;
+}
+#count-div{
+    margin-top: 22%;
+}
+#count-div h4{
+  font-size: 43.5px;
+  font-weight: 500;
+  line-height: 0.86;
+  letter-spacing: 3px;
+  color: #43b1cc;
+}
+
+#count-div h5{
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #000000;
+}
+
+.second{
+   padding-bottom: 10%;
+}
+.Third h2{
+    font-style: normal;
+    font-size: 43px;
+    line-height: 0.86;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    font-stretch: normal;
+    margin: 0px;
+    line-height: 1.4;
+    letter-spacing: 1.9px;
+    text-align: left;
+    color: #000000;
+}
+.Third h3{
+    font-style: normal;
+    font-size: 42px;
+    line-height: 0.86;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    font-stretch: normal;
+    margin: 0px;
+    margin: 15% 0% 5%;
+    line-height: 1.4;
+    letter-spacing: 1.9px;
+    text-align: left;
+    color: #000000;
+}
+.Third h2 span{
+  font-size: 48px !important;
+}
+.spl-follower-img{
+  margin-top: 32% !important;
+}
+.Third .nav-pills>li>a{
+  font-size: 29px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;    
+  width: 250px;
+  line-height: 1.38;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000000;
+  background-color: transparent;
+
+}
+.Third .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  font-size: 29px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #2f93ac;
+  background-color: transparent;
+}
+.Third .nav-pills>li+li {
+    margin-left: 2px;
+    border-left: 1px solid #000;
+}
+.Third .fright{
+    float: right;
+}
+.Third p{
+  font-size: 23px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  margin: 0% 0% 5%;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #000000;
+}
+.Third .get-started{
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 0px;
+    box-shadow: 0px 22px 60.5px 7.5px rgba(105, 103, 103, 0.52);
+    background-image: url(/assets/images/Home/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 13px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    width: 200px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    border: none;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    background-color: #fff;
+    text-align: left;
+    color: #020202 !important;
+    background-size: contain;
+}
+.Third .tab-content{
+   border-radius: 10px;    
+   margin: 5% 0%;
+   background-color: #ffffff;
+   box-shadow: 0 0 8px 0 rgba(57, 57, 57, 0.65);
+}
+.fourth{
+  margin:2% 0%;
+}
+.fourth h2{
+    font-size: 35px;
+    margin: 1% 0% 1%;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: 2.6px;
+    text-align: center;
+    color: #000000;
+}
+.fourth .carousel.slide img{
+  width: 170px
+}
+.carousel.slide{
+  margin:5% 0%;
+}
+#row2, #row3{
+  display:none;
+}
+.fifth h3{
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.9px;
+  text-align: left;
+  color: #000000;
+}
+.fifth h2{
+    font-size: 35px;
+    margin: 1% 0% 5%;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: 2.6px;
+    text-align: center;
+    color: #000000;
+}
+.fifth p{
+  font-size: 16px;
+  margin: 5% 0%;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.74;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #000000;
+}
+.inline-flex{
+    display: inline-flex;
+}
+.cl-img{
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 10%;
+    box-shadow: 0px 22px 60.5px 7.5px rgba(0, 0, 0, 0.52);
+}
+.client-logo{
+    width: 80px;
+    margin-right: 20px;
+    height:80px;
+    border-radius: 50%;
+}
+.likeperunit{
+    top: 10%;
+    /*left: 0;*/
+    box-shadow: 0px 22px 60.5px 7.5px rgba(0, 0, 0, 0.52);
+    position: absolute;
+}
+.Third img{
+    width: 90%;
+    margin: 8% -30px -30px;
+}
+.fifth button, .fifth button.active{
+  font-size: 25px;
+  font-weight: 400;
+  margin-top:20px;
+  float: right;
+  background: transparent;
+  border:none;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.84;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #50d0f0;
+}
+.sixth{
+  text-align: center;
+  padding: 5% 0%;
+}
+.sixth .starts-email{
+      margin: 5% auto;
+      width: 40%;
+}
+.sixth p{
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #000000;
+}
+
+.sixth h2{
+  font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.7px;
+  text-align: center;
+  color: #000000;
+}
+.fifth{
+    background-image: url(/assets/images/Home/8.png), url(/assets/images/Home/16.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, top right;
+}
+.Third{
+    background-image: url(/assets/images/Home/8.png), url(/assets/images/Home/14.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, bottom right;
+}
+/*.fourth{
+    background-image: url(/assets/images/Home/14.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, bottom right;
+}*/
+
+#count-div {
+    width: 100%;
+}
+/* common pages */
+@media only screen and (max-width:1200px) and (min-width:768px){
+   .banner-img{
+    width: 90%;
+   }
+   .jumbo h1 {
+    font-size: 25px;
+  }
+  .jumbo h2 {
+    font-size: 18px;    
+    width: 100%;
+  }
+  .starts-email .form-control {
+    font-size: 12px;
+    height: 50px;
+    padding: 10px 10px;
+  }
+  .starts-email .input-group-addon {
+    background-size: 100% 50px;
+    border: none;
+    padding: 0px 10px;
+  }
+  .second h2{
+    font-style: normal;
+    font-size: 25px;
+  }
+  .second h2 span {
+    font-size: 22px;
+  }
+  .second {
+    padding-top: 15%;
+  }
+  .box {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 21px 43px 0 rgba(57, 57, 57, 0.65);
+    padding: 10px;
+    width: 60%;
+    }
+    .box p {
+    font-size: 15px;
+    }
+    .box h4 {
+      font-size: 20px;
+    }
+    .second .follower-img {
+      margin-top: 35%;
+    }
+    #count-div h4 {
+      font-size: 25px;
+    }
+    #count-div h5 {
+      font-size: 13px;
+    }
+    .Third h2 {
+      font-style: normal;
+      font-size: 25px;
+    }
+    .Third h2 span {
+      font-size: 22px !important;
+    }
+    .Third .nav-pills > li > a {
+    font-size: 18px;
+    width: 150px;
+    }
+    .Third .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+       font-size: 18px; width: 150px;
+    }
+    .Third img{
+      width: 100%;
+    }
+    .Third h3 {
+    font-style: normal;
+    margin: 5% 0% 5%;
+    font-size: 22px;
+  }
+  .Third p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+  }
+  .fourth h2{
+      font-style: normal;
+      font-size: 22px;
+  }
+  .fourth .carousel.slide img {
+      width: 100px;
+  }
+  .likeperunit {
+    top: 15%;
+    width: 50%;
+  }
+  .fifth h3{
+   font-size: 20px;
+  }
+  .fifth p {
+    font-size: 14px;
+  }
+  .fifth button, .fifth button.active {
+    font-size: 20px;
+  }
+  .client-logo {
+    width: 60px;
+    margin-right: 20px;
+    height: 60px;
+  }
+  .fifth p {
+    font-size: 14px;
+    margin: 2% 0%;
+  }
+  .sixth p {
+    font-size: 16px;
+  }
+  .sixth {
+    text-align: center;
+    padding: 10% 0% 5%;
+}
+ }
+
+  .mobile-view{
+      display: none; 
+    }
+    .desktop-view{
+       display:inline-block;
+    }
+ @media only screen and (max-width:767px) and (min-width:200px){
+  .fifth h2 {
+    font-size: 22px;
+  }
+  .fifth {
+    background-image: none;
+  }
+  .sixth h2{
+    font-size: 22px;
+  }
+  .Third {
+    background-size: 25%;
+  }
+  .fifth .inline-flex {
+    display: inline-flex;
+    padding-left: 25%;
+    margin-top: 20px;
+  }
+  .starts-email img{
+    width: 30px;
+  }
+   .banner-img {
+    width: 75%;
+    margin-right: auto;
+  }
+   .jumbo h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .jumbo .text-right{
+    background-image: url(/assets/images/Home/8.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    right: 0px;
+    background-size: 40%;
+    margin-top: -115px;
+    padding-top: 20%;
+    text-align: center;
+  }
+  .jumbo h2 {
+    font-size: 12px;   
+    width: 100%;
+    text-align: center;
+  }
+  .starts-email .form-control {
+    font-size: 12px;
+    
+    height: 40px;
+    padding: 2px 10px;
+  }
+  .cust-bg-1{
+    background-image: url(/assets/images/Home/14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom
+  }
+  .jumbo {
+    background-image: url(/assets/images/Home/1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 30%;
+  }
+  .starts-email .input-group-addon {
+    background-size: 100% 50px;
+    border: none;
+    padding: 0px 10px;
+  }
+  .second h2{
+    font-style: normal;
+    font-size: 22px;
+  }
+  .second h2 span {
+    font-size: 20px;
+  }
+  .second {
+    padding-top: 0%;
+    margin-top: 20%;
+    background-size: 15%;
+    padding-left:0px !important;
+    padding-right:0px !important;
+  }
+  .box {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 21px 43px 0 rgba(57, 57, 57, 0.65);
+    padding: 10px;
+    width: 60%;
+    }
+    .box p {
+    font-size: 15px;
+    }
+    .box h4 {
+      font-size: 18px;
+    }
+    .second .follower-img {
+      margin-top: 35%;
+    }
+    #count-div h4 {
+      font-size: 22px;
+    }
+    #count-div h5 {
+      font-size: 13px;
+    }
+    .Third h2 {
+      font-style: normal;
+      font-size: 22px;
+
+    text-align: center;
+    }
+    .Third h2 span {
+      font-size: 20px !important;
+    }
+    .Third .nav-pills > li > a {
+    font-size: 16px;
+    width: auto;;
+    }
+    .Third .nav-pills > li{
+      width: 50%;;
+    }
+    .Third .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+       font-size: 16px; width:  auto;;    
+    }
+    .Third img{
+      width: 100%;
+    }
+    .Third h3 {
+    font-style: normal;
+    margin: 5% 0% 5%;
+    font-size: 20px;    text-align: center;
+  }
+  .Third p {
+    font-size: 13px;
+    width:85%;
+    margin: auto;
+    line-height: 2;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+  }
+  .fourth h2{
+      font-style: normal;
+      font-size: 20px;
+      margin: 10% 0% 5%
+  }
+  .fourth .carousel.slide img {
+      width: 100px;
+  }
+  .likeperunit {
+    top: 10%;
+    width: 50%;
+    left: auto;
+  }
+  .fifth h3{
+   font-size: 18px;
+  }
+  .cl-img{
+    box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.58);
+  }
+  .fifth p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .fifth button, .fifth button.active {
+    font-size: 20px;
+  }
+  .client-logo {
+    width: 45px;
+    margin-right: 0px;
+    height: 45px;
+}
+  .fifth p {
+    font-size: 12px;
+    margin: 2% 0%;
+  }
+  .sixth p {
+    font-size: 12px;
+  }
+  .sixth {
+    text-align: center;
+    padding: 10% 0% 5%;
+  }
+
+  .cust-bg-1{
+    margin-left: auto;background-size: 30%;
+    padding: 2% 15px 33%;
+    padding-left: 15px;
+  }
+  .jumbotron {
+    padding-top: 20%;
+  }
+  .starts-email {
+    margin: auto;
+  }
+  .cust-bg-3{
+    text-align: center;
+    margin-right: auto;
+    background-image: none;
+  }
+  .second {
+    text-align: center;
+    background-image: url(/assets/images/Home/9.png), url(/assets/images/Home/16.png);
+    background-position: top right , left top;
+  }
+  .second h2{
+    text-align: center;
+  }
+  .second h2 span {
+    font-size: 15px;
+  }
+   .mobile-view{
+      display:inline-block;
+    }
+    .desktop-view{
+       display: none; 
+    }
+    #count-div {
+    margin-top: 9%;
+  }
+  .img-1{
+    display:none;
+  }
+  .cust-bg-3 {
+    margin-top: 0px;
+  }
+  .cust-bg-2 {
+    margin-left: 0px;
+    padding-left: 15px
+  }
+  .box{
+    border-radius: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    right: auto;
+    left: auto;
+    margin-top: 15%;
+    width: 100%;
+    position: relative;
+  }
+  #count-div h5 {
+    font-size: 13px;
+    text-align: center;
+  }
+  .box p {
+    font-size: 10px;
+    font-weight: 900;
+  }
+  .follower-img {
+    margin-top: 23%;
+    width: 100%;
+    box-shadow: 0px 2px 10.5px 0px rgba(0, 0, 0, 0.52);
+  }
+  .second .follower-img{
+    width: 100%;
+    box-shadow: 0px 2px 10.5px 0px rgba(0, 0, 0, 0.52);
+  }
+  .spl-follower-img {
+    margin-top: 5% !important;
+  }
+  .second .follower-img {
+    margin-top: 5%;
+  }
+  .box1{
+      margin-top: 42%;
+  }
+  .Third .nav-pills span, .Third .nav-pills br {
+     display: none;
+  }
+  .Third .fright {
+    float: none;
+    margin: 5% auto;
+
+  }
+  .Third .tab-content{   
+   text-align: center;
+    margin-top: 30%;
+  }
+  .Third .tab-content .row .col-xs-12:nth-child(2){
+    padding: 12% 0% 15%;
+  }
+  .Third img {
+    width: 100%;
+    margin-top: -66px;
+  }
+  .Third .get-started {
+    margin: 5% 0%;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 10% 0% 0%;
+    box-shadow: 0px 2px 20.5px 2px rgba(105, 103, 103, 0.52);
+
+  }
+  .fourth .carousel-inner .item .col-sm-2:nth-child(5){
+    display: none;
+  }
+  .fourth .carousel-inner .col-sm-1{
+  display: none;
+  }
+  .fourth .carousel.slide img {
+      margin: 10px;
+    }
+    .btn1{
+      display: none;
+    }
+    .fifth h3 {
+    font-size: 18px;
+    margin-top: 20%;
+    text-align: center;
+  }
+  .fifth button{
+    display: none;
+  }
+  #influencer2, #influencer3{
+     display: none;
+  }
+  .fourth h2 {
+    font-style: normal;
+    font-size: 18px;
+  }
+  .sixth .starts-email {
+    margin: 5% auto;
+       width: 70%;
+}
+.second, .Third, .fourth, .fifth, .sixth {
+    background-color: transparent;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.Third .nav-pills > li + li {
+    margin-left: 0px;
+    }
+}
