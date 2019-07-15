@@ -4,6 +4,7 @@ import { StoreModule} from '@ngrx/store'
 import { AppRoutingModule, RoutingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomersModule } from './customers/customers.module';
+import {  StoreDevtoolsModule} from "@ngrx/store-devtools";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CustomersModule } from './customers/customers.module';
     BrowserModule,
     AppRoutingModule,
     StoreModule,
-    CustomersModule
+    CustomersModule,
+    StoreDevtoolsModule.instrument(),
   ],
   providers: [],
   bootstrap: [AppComponent]
